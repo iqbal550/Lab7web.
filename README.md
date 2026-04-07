@@ -8,6 +8,31 @@
 
 # Praktikum 1
 
+Repositori ini dibuat untuk memenuhi tugas praktikum Pemrograman Web (Lab 7). Aplikasi ini mendemonstrasikan operasi dasar **CRUD** (Create, Read, Update, Delete) pada data mahasiswa menggunakan PHP dan MySQL.
+
+## Fitur Utama
+- Menampilkan daftar mahasiswa (Read)
+- Menambahkan data mahasiswa baru (Create)
+- Mengubah data mahasiswa (Update)
+- Menghapus data mahasiswa (Delete)
+
+## Teknologi yang Digunakan
+- PHP (Native)
+- MySQL / MariaDB
+- HTML5 & CSS3
+- Bootstrap (untuk tampilan responsif)
+
+## Cara Menjalankan
+1. Clone repositori ini ke folder `htdocs` (jika menggunakan XAMPP) atau `www` (jika menggunakan Laragon).
+2. Impor database dari file `database.sql` (jika tersedia). Jika tidak ada, buat database dengan nama `lab7web` dan tabel `mahasiswa`:
+   ```sql
+   CREATE TABLE mahasiswa (
+       id INT(11) AUTO_INCREMENT PRIMARY KEY,
+       nim VARCHAR(20) NOT NULL,
+       nama VARCHAR(100) NOT NULL,
+       jurusan VARCHAR(50)
+   );
+
 1. Instalasi CodeIgniter 4
    <img width="1919" height="1067" alt="image" src="https://github.com/user-attachments/assets/4d9ce3c3-92ce-48d3-bdc1-232d3b0cbed6" />
    
